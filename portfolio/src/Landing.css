@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    
+}.main h5{
+    color: white;
+    font-weight: 550;
+    font-size: 1.8em;
+}
+.main h3{
+    font-family: "Gravitas One", serif;
+    color: rgb(216, 156, 27);
+    font-size:6em;
+}.main h5#qual{
+    font-size: 1.2em;
+    font-weight: 300;
+    background: none;
+}
