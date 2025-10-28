@@ -1,0 +1,44 @@
+.contact{
+    background-color: #060010;
+    color:white;
+    text-align: center;
+      font-family: "Bebas Neue", sans-serif;
+   padding: 10vh;
+   padding-top:20vh;
+}.contact h2{
+    font-size: 2.2em;
+      opacity: 0.9;
+    background: none;
+    color: white;
+}.sep{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    
+}
+.sep h5{
+    display: flex;
+    justify-content: center;
+    font-weight: 50;
+    font-size: 1.3em;
+}
+ h5 svg{
+    width: 1em;
+    height: 1em;
+    margin-right: 10px;
+    scale: 1.2;
+}#mail svg{
+    scale: 1.4;
+}
+@media (max-width:700px) {
+    .sep{
+        flex-direction: column;
+    }h2{
+        font-size: 2em;
+        
+        color: white;
+    }.sep h5{
+        font-size: 1.2em;
+        margin-top: 5%;
+    }
+}
