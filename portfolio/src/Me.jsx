@@ -1,12 +1,11 @@
 import React from 'react';
-import Photocard from "./assets/Me.jpg";
 import "./Me.css";
 
 function Me() {
   return (
     <div className="About">
       <div className="image">
-        <img src={Photocard} alt="Me" />
+        <img src="https://ik.imagekit.io/u8xrrcdi8/pranush/IMG-20251020-WA0091.jpg?updatedAt=1761713016898" alt="Me" />
       </div>
       <div className="descrip">
         <h3>About Me</h3>
@@ -20,3 +19,4 @@ I love turning moments into emotions and ideas into cinematic experiences. Wheth
 }
 
 export default Me;
+
