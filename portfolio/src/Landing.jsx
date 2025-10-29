@@ -7,7 +7,6 @@ import Me from './Me.jsx';
 import Skills from './Skills.jsx';
 import Footer from './Footer.jsx';
 function Landing() {
-  console.log(Vido)
   return (<>
   
 {/* <div style={{ width: '100vw', height: '100vh', position: 'absolute', backgroundColor:'#060010' }}>
@@ -43,4 +42,5 @@ function Landing() {
 
 
 export default Landing
+
 
