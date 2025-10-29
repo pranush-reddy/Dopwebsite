@@ -1,5 +1,5 @@
 import React from "react";
-import Photocard from "./assets/Me.jpg";
+import Photocard from "https://ik.imagekit.io/u8xrrcdi8/pranush/WhatsApp%20Video%202025-10-29%20at%2010.19.14%20AM.mp4?updatedAt=1761717485578";
 import "./Me.css";
 
 function Me() {
@@ -19,4 +19,5 @@ function Me() {
 }
 
 export default Me;
+
 
