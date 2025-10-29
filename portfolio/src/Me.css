@@ -1,23 +1,33 @@
 .About {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
-  background-color: #060010;
-  padding: 1rem 6rem 5rem 0rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 90vh;
+  padding: 2rem;
+  color: white;
+  overflow: hidden;
 }
 
-.image img {
-  width: 80%;
-  height: auto;
-
- 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 0, 16, 0.6);
+  z-index: 0;
 }
 
 .descrip {
-  color: white;
+  position: relative;
+  z-index: 1;
   font-family: "Bebas Neue", sans-serif;
+  max-width: 800px;
 }
 
 .descrip h3 {
@@ -31,36 +41,16 @@
   font-family: "Poppins", sans-serif;
   color: #ccc;
 }
-
-/* Responsive layout */
 @media (max-width: 900px) {
-  .About {
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding: 3rem 2rem;
-  }
-
-  .image img {
-    width: 70%;
-  }
-
   .descrip h3 {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 
 @media (max-width: 600px) {
-    .About{
-        padding:4rem 0rem 5rem 0rem
-    }
   .descrip h3 {
-    font-size: 48px;
+    font-size: 40px;
   }
-
-.image img {
-    width: 100%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-}
 
   .descrip p {
     font-size: 18px;
