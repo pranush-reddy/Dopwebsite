@@ -5,7 +5,6 @@ import LightRays from './LightRays';
 import Contact from './Contact.jsx';
 import Me from './Me.jsx';
 import Skills from './Skills.jsx';
-import Vido from 'https://ik.imagekit.io/u8xrrcdi8/pranush/WhatsApp%20Video%202025-10-29%20at%2010.19.14%20AM.mp4?updatedAt=1761717485578';
 import Footer from './Footer.jsx';
 function Landing() {
   console.log(Vido)
@@ -26,7 +25,7 @@ function Landing() {
         preload='auto'
         playsInline
       >
-        <source src={Vido} type="video/mp4" />
+        <source src='https://ik.imagekit.io/u8xrrcdi8/pranush/WhatsApp%20Video%202025-10-29%20at%2010.19.14%20AM.mp4?updatedAt=1761717485578' type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     <div className='main'>
@@ -44,3 +43,4 @@ function Landing() {
 
 
 export default Landing
+
