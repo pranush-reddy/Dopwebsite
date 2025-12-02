@@ -1,0 +1,33 @@
+.dis-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}.dis-flex img{
+      width: 6em;
+      height: auto;
+        scale: 1.4;
+}.experience h2{
+    padding-bottom: 2%;
+}#channa{
+    height:'8vh';
+    width:'8vw';
+}
+@media (max-width:640px) {
+    .experience{
+        font-size: 0.8rem;
+    }
+    .dis-flex img{
+        width: 3em;
+    }.dis-flex{
+    gap:25px;
+    padding-left: 1%;
+
+}
+    #channa{
+        width: 30vw;
+        height: 9vh;
+        scale: 0.9;
+        margin-left: -5%;
+    }
+}

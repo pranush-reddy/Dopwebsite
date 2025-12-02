@@ -7,14 +7,15 @@
 #developer h3{
     font-size: 1rem;
     color: #a194b8e6;
-    font-weight: 400;
+    font-weight: 100;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .25rem;
     text-align: center ;
-}span svg{
+}#developer svg{
     width:1.4em;
+    scale: 1;
     
 }a{
     color: white;

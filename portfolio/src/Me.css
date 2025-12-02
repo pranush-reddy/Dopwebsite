@@ -25,9 +25,11 @@
 
 .descrip {
   position: relative;
+  bottom: 0%;
   z-index: 1;
   font-family: "Bebas Neue", sans-serif;
   max-width: 800px;
+  padding-top: 10%;
 }
 
 .descrip h3 {
@@ -36,7 +38,7 @@
 }
 
 .descrip p {
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 1.6;
   font-family: "Poppins", sans-serif;
   color: #ccc;

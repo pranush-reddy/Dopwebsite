@@ -5,6 +5,7 @@
       font-family: "Bebas Neue", sans-serif;
    padding: 10vh;
    padding-top:20vh;
+
 }.contact h2{
     font-size: 2.2em;
       opacity: 0.9;
@@ -28,7 +29,8 @@
     margin-right: 10px;
     scale: 1.2;
 }#mail svg{
-    scale: 1.4;
+    margin-right: 0px;
+    width: 2.3em;
 }
 @media (max-width:700px) {
     .sep{
@@ -40,5 +42,7 @@
     }.sep h5{
         font-size: 1.2em;
         margin-top: 5%;
+    }#mail svg{
+        display: none;
     }
 }

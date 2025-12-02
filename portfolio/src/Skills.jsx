@@ -14,7 +14,7 @@ const CustomSvgLogo = () => (
 function Skills() {
   return (
     <><div className='Skills'>
-    <h2>I Work With !</h2>
+    <h2>I'm skilled in</h2>
     <div className='skill-icons'>
          <SiCanva color="#ffffff"  className='logoo' />
         <SiAdobelightroom color="transparent" fill='white' className='logoo' />

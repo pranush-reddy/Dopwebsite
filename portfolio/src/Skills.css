@@ -1,14 +1,16 @@
 .Skills{
     background-color:#060010 ;
-    margin-top: -6vh;
+    margin-top: 6vh;
     padding-top: 3%;
-    
-}.Skills h2{
+    margin-bottom: 20vh;
+}.Skills h2 , .experience h2 , #connect h3 {
     text-align: center;
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-size: 2.3em;
     padding: 2%;
+    letter-spacing: 1px;
+    padding-bottom: 2%;
 }.skill-icons{
     display: flex;
     justify-content: center;
@@ -30,5 +32,7 @@
     }.skill-icons{
         margin-top: 0%;
         scale: 0.9;
+    }.Skills h2{
+        font-size:1.9rem;
     }
 }

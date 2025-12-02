@@ -79,13 +79,13 @@ background-color:rgb(11, 11, 11);
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1050;
-}img{
+}.logo img{
   width: 6em;
   margin-top: 9vh;
 }
 
 @media (max-width: 768px) {
-  img{
+  .logo img{
     width: 60px;
     display: flex;
     justify-content: center;
