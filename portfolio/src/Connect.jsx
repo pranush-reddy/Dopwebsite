@@ -9,6 +9,12 @@ function Connect() {
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState({ show: false, message: "", type: "" });
 
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
+  
+
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -21,10 +27,10 @@ function Connect() {
 
     emailjs
       .send(
-        "service_s22f3yo",
-        "template_nm22ztk",
+        serviceId,
+        templateId,
         templateParams,
-        "nbSEGCqcFta30vaCf"
+        publicKey
       )
       .then(() => {
         setToast({ show: true, message: "Email sent successfully! ✨", type: "success" });

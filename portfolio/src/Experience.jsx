@@ -8,7 +8,7 @@ function Experience() {
   return (
 <>
 <div className='experience'>
-    <h2>I worked with🎬</h2>
+    <h2>Brand Journey🎞️</h2>
     <div className='dis-flex'>
         <img src={TKReels}/>
         <img style={{scale:'1.8'}} src={Reelify}/>
