@@ -12,6 +12,10 @@ function Connect() {
   const serviceId = process.env.REACT_APP_SERVICE_ID;
   const templateId = process.env.REACT_APP_TEMPLATE_ID;
   const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  console.log("SERVICE:", serviceId);
+console.log("TEMPLATE:", templateId);
+console.log("PUBLIC:", publicKey);
+
 
   
 
@@ -82,3 +86,4 @@ function Connect() {
 }
 
 export default Connect;
+
