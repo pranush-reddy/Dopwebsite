@@ -1,10 +1,9 @@
 import React from "react";
-import Photocard from "./assets/Me.jpg";
 import "./Me.css";
 
 function Me() {
   return (
-    <div className="About" style={{ backgroundImage: `url(${Photocard})` }}>
+    <div className="About" style={{ backgroundImage: `url("https://ik.imagekit.io/u8xrrcdi8/pranush/IMG-20251020-WA0091.jpg?updatedAt=1761713016898")` }}>
       <div className="overlay"></div>
       <div className="descrip">
         <h3>About Me</h3>
@@ -19,4 +18,7 @@ function Me() {
 }
 
 export default Me;
+
+
+
 

@@ -36,21 +36,7 @@ const videoRef = useRef(null);
 
    <div className="video-background">
   <App/>
-{/* <video
-        ref={videoRef}
-        className="video-bg"
-        muted
-        autoPlay
-        loop
-        playsInline
-        preload="auto"
-        style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
-      >
-        <source
-          src="https://ik.imagekit.io/u8xrrcdi8/pranush/WhatsApp%20Video%202025-10-29%20at%2010.19.14%20AM.mp4?updatedAt=1761717485578"
-          type="video/mp4"
-        />
-      </video> */}
+
 
     <div className='main'>
         <h3>B YASHWANT KUMAR</h3>
@@ -68,4 +54,7 @@ const videoRef = useRef(null);
   )
 }
 
+
 export default Landing
+
+
