@@ -6,26 +6,11 @@ import Contact from './Contact.jsx';
 import Me from './Me.jsx';
 import Connect from './Connect.jsx';
 import Skills from './Skills.jsx';
+import Gallery from './Gallery.jsx';
 import Experience from './Experience.jsx';
 import Footer from './Footer.jsx';
 function Landing() {
 const videoRef = useRef(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    // Try autoplay programmatically
-    video.play().catch(() => {
-      console.log("Autoplay blocked on iOS — waiting for user interaction");
-      // Fallback: play on first touch
-      const startVideo = () => {
-        video.play();
-        window.removeEventListener("touchstart", startVideo);
-      };
-      window.addEventListener("touchstart", startVideo);
-    });
-  }, []);
 
   return (<>
   
@@ -47,6 +32,7 @@ const videoRef = useRef(null);
     <Me/>
     <Skills/>
     <Experience/>
+    <Gallery/>
     <Connect/>
     <Contact/>
     <Footer/>

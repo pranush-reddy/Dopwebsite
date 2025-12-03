@@ -1,0 +1,105 @@
+.gallery-wrapper {
+  position: relative;
+  height: max-content;
+  padding-top: 5rem;
+    background-color:#060010 ;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gallery-title {
+  font-size: 2.2em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.gallery {
+  display: flex;
+  gap: 2rem;
+  padding: 0 5vw 5rem;
+  min-width: fit-content;
+  transition: transform 0.1s ease-out;
+}
+
+/* Responsive image sizing */
+.gallery img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* Tablet screens (768px and up) */
+@media (min-width: 768px) {
+  .gallery img {
+    width: 320px;
+    height: 400px;
+  }
+}
+
+/* Desktop screens (1024px and up) */
+@media (min-width: 1024px) {
+  .gallery img {
+    width: 350px;
+    height: 420px;
+  }
+}
+
+/* Large desktop screens (1440px and up) */
+@media (min-width: 1440px) {
+  .gallery img {
+    width: 450px;
+    height: 500px;
+  }
+}
+
+/* Extra large screens (1920px and up) */
+@media (min-width: 1920px) {
+  .gallery img {
+    width: 500px;
+    height: 550px;
+  }
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Add responsive gap between images */
+@media (max-width: 768px) {
+  .gallery {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    gap: 1rem;
+  }
+  .gallery img {
+    width: 200px;
+    height: 280px;
+  }.gallery-title{
+    letter-spacing: 0.5px;
+    font-size: 2em;
+  }
+}

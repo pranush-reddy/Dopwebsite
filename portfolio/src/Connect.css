@@ -40,6 +40,8 @@ h6{
   font-weight: 700;
   font-size: 2.1em;
   text-align: center;
+  display: flex;
+  align-items: center;
       color: white;
     font-family: "Bebas Neue", sans-serif;
   margin-bottom: 3%;
@@ -105,6 +107,9 @@ textarea:focus {
 textarea {
   height: 130px;
   resize: none;
+}.connect-title svg{
+  margin-left: -12px;
+  scale: 0.45;
 }
 @media (max-width:640px) {
  #connect{
@@ -121,9 +126,14 @@ textarea{
   width: 90%;
   padding-left: 2%;
 }.connect-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2em;
 }#connect h3{
   font-size: 2rem;
   margin-bottom: 10%;
+}.connect-title svg{
+  scale: 0.4;
 }
 }
