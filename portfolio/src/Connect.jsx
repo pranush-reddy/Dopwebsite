@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import Toast from "./Toast"; // import Toast component
+import Toast from "./Toast"; 
 import "./Connect.css";
 
 function Connect() {
@@ -8,7 +8,6 @@ function Connect() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState({ show: false, message: "", type: "" });
-
   
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -82,3 +81,5 @@ function Connect() {
 }
 
 export default Connect;
+
+
